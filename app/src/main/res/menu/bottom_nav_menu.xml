@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_Bus"
+        android:icon="@drawable/ic_directions_bus_black_24dp"
+        android:title="@string/title_Bus" />
+
+    <item
+        android:id="@+id/navigation_SubWay"
+        android:icon="@drawable/ic_directions_railway_black_24dp"
+        android:title="@string/title_SubWay" />
+
+</menu>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_Bus"
+    >
+    <fragment
+        android:id="@+id/navigation_Bus"
+        android:name="com.example.busappver15.ui.bus.BusFragment"
+        android:label="@string/title_Bus"
+        tools:layout="@layout/fragment_bus" />
+
+    <fragment
+        android:id="@+id/navigation_SubWay"
+        android:name="com.example.busappver15.ui.subway.SubwayFragment"
+        android:label="@string/title_SubWay"
+        tools:layout="@layout/fragment_subway" />
+</navigation>

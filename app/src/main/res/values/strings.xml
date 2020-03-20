@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BusApp[Ver.1.5]</string>
+    <string name="title_Bus">Bus</string>
+    <string name="title_SubWay">SubWay</string>
+</resources>
